@@ -3,38 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
+    <h1>Trabalhando com Listas</h1>
+    <h2>listas Ordenadas</h2>
+    <ol type="1"><!--! A a I i -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para a casa</li>
+        <li>jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type = "square"><!-- disc circle square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
 
-    <h2>Código-fonte/ Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é ÍMPAR')
-    print('Fim do programa')
-        </code>
-    </pre>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
 
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>o computador e um burru muito rápido.</q></p>
-
-    <h2>Citações completas</h2>
-
-    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">A diferença entre  elementos inline  e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote>
-
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hyper Text Markup language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type ="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario Lost levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type ="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>Playstation 1</li>
+        <ul type ="square">
+            <li>Castelvania</li>
+            <li>Crase</li>
+        </ul>
+    </ol>
     
+    <h2>lista de Definições</h2><!--Google valoriza lista de definições no seu interior-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>linguagem de marcação utilizada para criar conteúdo de sites.</dd>
+        <dt>CSS</dt>
+        <dd>linguagem de marcação para a especificação de estilos em sites.</dd>
+        <dt>JavaScript</dt>
+        <dd>linguagem de programação para criar interatividades de um sites.</dd>
+    </dl>
+
 </body>
 </html>
