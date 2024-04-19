@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+@font-face{
+    font-family: 'Little';
+    src: url(fontes/littlebird.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+#importada{
+    font-family: 'pacifico',cursive;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#local{
+    font-family: 'Little',Times, serif;
+}
+
+
+h1{
+    font-family: 'Times New', Times, serif; 
+    font-size: 40px;
+}
+
+h2{
+    
+font: normal 30px Arial;
+}
