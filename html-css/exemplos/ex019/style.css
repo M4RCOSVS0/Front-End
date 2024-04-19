@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dir{
+    text-align: left;
+}
+
+.esq{
+}
+
+p{
+    text-align: justify;
+    text-indent: 20pt;
+}
+
+.especial{
+    background-color: rgb(242, 255, 0,0.468);
+}
+
+.meio{
+    text-align: center;
+}
